@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+.pt6{
+  padding-top: 4.5rem;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  z-index: 1050;
+}
+
+.sidebar.open {
+  transform: translateX(250px);
+}
+
+.sidebar-content {
+  padding: 0;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.sidebar .navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .nav-item {
+  padding: 10px 0;
+}
+
+.main-content {
+  transition: opacity 0.3s ease;
+}
+
+.main-content.overlay {
+  opacity: 0.3;
+}
+
+.custom-back{
+  background: linear-gradient(to right, #3B82F6, #60A5FA);
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
