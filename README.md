@@ -29,7 +29,7 @@ Smartify leverages **Edge AI** to deliver real-time, offline voice automation. U
 
 ## 🧠 Problem Statement
 
-Design a smart, voice-activated system using Edge AI and ESP32 boards to control appliances with simple commands (e.g., "on," "off," or fan speed levels). The system must be:  
+Design a smart, voice-activated system using Edge AI and ESP32 boards to control appliances with simple commands. The system must be:  
 - **Offline-capable** for privacy and reliability  
 - **Energy-efficient** for sustainability  
 - **Real-time** for instant response  
@@ -88,10 +88,10 @@ Edge Impulse Model                     Relay Module
 
 ## 🎬 Milestone Videos
 
-| Milestone | Description                           | Link |
-|-----------|---------------------------------------|------|
-| 1         | Wake word + Light automation demo     | [▶️ Watch](https://youtu.be/DYXQHowh-Yw) |
-| 2         | ESP32-S3 to ESP32 + Relay demo        | [▶️ Watch](https://youtu.be/AVJk5DDtgkE) |
+| Milestone | Link |
+|-----------|------|
+| 1         | [▶️ Watch](https://youtu.be/DYXQHowh-Yw) |
+| 2         | [▶️ Watch](https://youtu.be/AVJk5DDtgkE) |
 
 ## ✅ Results
 
