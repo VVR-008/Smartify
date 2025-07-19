@@ -1,6 +1,6 @@
 # 🌟 Smartify - Voice-Enabled IoT Automation System
 
-![GitHub](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub](https://github.com/VVR-008/Smartify/blob/main/LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/VVR-008/Smartify?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/VVR-008/Smartify)
 
